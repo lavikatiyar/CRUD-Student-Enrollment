@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+(% include 'header.html' %)
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+  <div class='container'>
+    <form action='' method='post'>
+      Are you sure to delete the record?
+      <input type='submit' value='YES' class='btn btn-danger'>
+      <a href='/'>Cancel</a>
+    </form>
+  </div>
+{% endblock %}
