@@ -17,3 +17,4 @@ Run the application here -> https://replit.com/@youtube38/completeCRUDStudent-En
 ## Using
 1. Flask
 2. SQLAlchemy
+
